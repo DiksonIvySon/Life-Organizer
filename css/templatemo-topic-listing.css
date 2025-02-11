@@ -74,6 +74,11 @@ body {
   font-family: var(--body-font-family); 
 }
 
+.website-logo {
+  max-width: 50px;
+  border-radius: 10px;
+}
+
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -902,6 +907,8 @@ blockquote {
 -----------------------------------------*/
 .newsletter-image {
   border-radius: var(--border-radius-medium);
+  width: 100%;
+  object-fit: cover;
 }
 
 
@@ -970,11 +977,16 @@ blockquote {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  border-bottom: 10px solid var(--secondary-color);
+  border-bottom: 30px solid var(--secondary-color);
   position: relative;
 }
 
-.site-footer::after {
+.site-footer img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* .site-footer::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -985,7 +997,7 @@ blockquote {
   border-width: 0 0 200px 200px;
   border-color: transparent transparent var(--secondary-color) transparent;
   pointer-events: none;
-}
+} */
 
 .site-footer-title {
   color: var(--primary-color); 
@@ -1040,6 +1052,10 @@ blockquote {
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-medium);
   line-height: normal;
+}
+
+.site-footer-link:hover {
+  color: #00B0FF;
 }
 
 .copyright-text {
