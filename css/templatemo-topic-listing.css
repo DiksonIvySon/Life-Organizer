@@ -678,9 +678,23 @@ strong {
   overflow: hidden;
 }
 
+#topics-detail ul {
+  margin-left: 40px;
+}
+
+#topics-detail a {
+  color: blue;
+}
+
+#topics-detail a:hover {
+  color: #00B0FF;
+}
+
 .topics-detail-block-image {
-  display: block;
+  /* display: block; */
   border-radius: var(--border-radius-medium);
+  width: 100%;
+  object-fit: cover;
 }
 
 blockquote {
