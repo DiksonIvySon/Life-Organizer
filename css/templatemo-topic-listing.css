@@ -29,7 +29,7 @@
   --primary-color:                #003366; /* Deep navy for a strong foundation */
   --secondary-color:              #4f5d75; /* Cool gray-blue for balance */
   --section-bg-color:             #f4f7fc; /* Light grayish-blue background for sections */
-  --custom-btn-bg-color:          #5c6bc0; /* Muted yet vibrant periwinkle for buttons */
+  --custom-btn-bg-color:          #6fb0d6; /* Muted yet vibrant periwinkle for buttons */
   --custom-btn-bg-hover-color:    #2c3e50; /* Darker navy for hover effect */
   --dark-color:                   #2d3436; /* Charcoal gray for text and contrast */
   --p-color:                      #7f8c8d; /* Medium gray for paragraph text */
@@ -233,7 +233,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: var(--custom-btn-bg-color );
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -522,6 +522,14 @@ color: #00B0FF;
   clip-path: polygon(0 0, 100% 0, 100% 80%,0% 100%);
 }
 
+.hero-section .row > div{
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+}
+
 .hero-section .input-group {
   background-color: var(--white-color);
   border-radius: var(--border-radius-large);
@@ -546,6 +554,10 @@ color: #00B0FF;
   border-radius: var(--border-radius-large) !important;
   color: var(--white-color);
   max-width: 150px;
+}
+
+.hero-section h6 {
+  color: var(--p-color);
 }
 
 
