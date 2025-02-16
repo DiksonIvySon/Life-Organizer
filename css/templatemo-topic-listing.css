@@ -1143,7 +1143,7 @@ blockquote {
   }
   
   .navbar {
-    background-color: var(--secondary-color);
+    background-color: transparent;
   }
 
   .navbar-nav .dropdown-menu {
