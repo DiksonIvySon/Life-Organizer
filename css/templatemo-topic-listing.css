@@ -949,8 +949,14 @@ blockquote {
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
-.contact-section {
+/* .contact-section {
   background-image: linear-gradient(70deg, #13547a, var(--section-bg-color), var(--section-bg-color));
+} */
+
+.contact-section .container {
+  background: linear-gradient(0deg, #02273b, #13547a, #87bdd8 );
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .google-map {
