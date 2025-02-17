@@ -1035,6 +1035,57 @@ blockquote {
   border-color: transparent;
 }
 
+/*---------------------------------------
+  ABOUT PAGE               
+-----------------------------------------*/
+ /* .about-page-site-header {
+  max-height: 500px;
+}
+
+.about-page-site-header .row {
+  margin-top: 100px;
+  
+}
+   */
+
+.about-body {
+  max-width: 1100px;
+}
+
+.about-page-site-header .topics-detail-block-image {
+  max-height: 400px; 
+} 
+
+.about-content .about-content-row {
+  margin-top: 60px;
+}
+
+.about-content .about-content-row div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-content .highlights  {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.about-content .about-content-row img {
+  max-width: 350px;
+  border-radius: 00px 0px 50px 0px;
+}
+
+.about-content .highlights h6{
+  font-size: 15px;
+}
+
+.about-content .highlights img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
 
 /*---------------------------------------
   SITE FOOTER              
