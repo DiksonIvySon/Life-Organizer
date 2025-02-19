@@ -610,12 +610,28 @@ color: #00B0FF;
   width: 100%;
 }
 
+.custom-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.custom-block a {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+}
+
+.custom-block .d-flex {
+  flex-grow: 1;
+}
+
 .custom-block-image {
   display: block;
   width: 100%;
   height: 200px;
   object-fit: cover;
-  margin-top: 35px;
+  margin-top: auto;
 }
 
 .custom-block .rounded-pill {
